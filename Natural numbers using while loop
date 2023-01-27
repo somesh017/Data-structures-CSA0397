@@ -1,0 +1,33 @@
+#include<conio.h>
+
+#include<stdio.h>
+
+void main()
+
+{
+
+int a;
+
+clrscr();
+
+printf("enter the number:");
+
+scanf("%d",&a);
+
+int i=1;
+
+while(i<=a)
+
+{
+
+ printf("%d\n",i);
+
+ i++;
+
+}
+
+printf("\n");
+
+getch();
+
+}
